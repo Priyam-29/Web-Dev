@@ -14,6 +14,15 @@ body{
     padding-top: 1.3%;
 }
 
+#dp{
+    background-image: url("http://www.af-usa.org/seeimg/big/88/887598_pain-wallpaper-hd.jpg");
+    width:100%;
+    height:20rem;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
 #image_div{
     background-image: url("https://vignette.wikia.nocookie.net/gaoi-archive/images/b/bc/Six_Paths_of_Pain.png/revision/latest?cb=20160606082122");
     width:100%;
