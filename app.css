@@ -1,14 +1,33 @@
 body{
     font-family: 'Nunito';
     background-color: lightsteelblue;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13515823-c29e-4973-9499-253aa4617097/dbm4yxl-3f14b42d-9473-4e57-b66b-8eacdf3eab32.jpg/v1/fill/w_1024,h_576,q_75,strp/six_paths_of_pain_by_jayseldc_dbm4yxl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMTM1MTU4MjMtYzI5ZS00OTczLTk0OTktMjUzYWE0NjE3MDk3XC9kYm00eXhsLTNmMTRiNDJkLTk0NzMtNGU1Ny1iNjZiLThlYWNkZjNlYWIzMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wGqfqXU5xRwHZ4njN7p1jhGNl3IvYeeYRCUubk57rN8);
-    background-position: center;
-    background-size: cover;
+    width: 100%;
+    height: 740px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13515823-c29e-4973-9499-253aa4617097/dbm4yxl-3f14b42d-9473-4e57-b66b-8eacdf3eab32.jpg/v1/fill/w_1024,h_576,q_75,strp/six_paths_of_pain_by_jayseldc_dbm4yxl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMTM1MTU4MjMtYzI5ZS00OTczLTk0OTktMjUzYWE0NjE3MDk3XC9kYm00eXhsLTNmMTRiNDJkLTk0NzMtNGU1Ny1iNjZiLThlYWNkZjNlYWIzMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wGqfqXU5xRwHZ4njN7p1jhGNl3IvYeeYRCUubk57rN8), url(https://vignette.wikia.nocookie.net/gaoi-archive/images/b/bc/Six_Paths_of_Pain.png/revision/latest?cb=20160606082122);
+    background-position: 0 0, center;
+    background-size: cover, cover;
     background-repeat: no-repeat, no-repeat;
 }
 
-div{
-    opacity: 0.9;
+.jumbotron{
+    opacity: 0.86;
+    padding-top: 1.3%;
+}
+
+#image_div{
+    background-image: url("https://vignette.wikia.nocookie.net/gaoi-archive/images/b/bc/Six_Paths_of_Pain.png/revision/latest?cb=20160606082122");
+    width:100%;
+    height:10rem;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+ul{
+    text-align: justify;
+}
+
+#abc{
+    text-align: left;
 }
 
 #xyz{
