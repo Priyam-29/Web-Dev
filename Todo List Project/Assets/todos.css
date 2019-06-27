@@ -1,0 +1,81 @@
+#container{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 4%;
+    background-color: #e6e6e6;
+    box-shadow: 3px 3px 3px rgb(92, 118, 206);
+}
+
+body{
+    font-family: 'Crimson Text', serif;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+h1{
+    background-color: rgb(41, 156, 250);
+    color: rgb(253, 249, 242);
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.liClick{
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+li{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+li:nth-child(2n){
+    background-color: #e6e6e6;
+}
+
+input{
+    font-size: 18px;
+    color:rgb(90, 90, 90);
+    background-color: #e6e6e6;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus{
+    background-color: #fff;
+}
+
+span{
+    background-color: rgb(247, 26, 55);
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+.fa-calendar-plus{
+    float: right;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
